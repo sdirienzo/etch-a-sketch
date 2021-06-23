@@ -5,6 +5,51 @@
     --cell-width: 0px;
 }
 
+body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.title-area {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
+}
+
+.change-btn-area {
+    display: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+#change-btn {
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.grid-area {
+    display: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
 .container {
     display: grid;
     grid-template-rows: repeat(var(--grid-rows), var(--cell-height));
